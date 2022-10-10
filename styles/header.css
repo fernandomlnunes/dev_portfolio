@@ -252,7 +252,7 @@
     .topo.sticky {
         display: block;
         position: absolute;
-        margin-top: 224%;
+        margin-top: 188%;
         margin-left: 92vw;
         transition: 0.5s;
     }
@@ -309,7 +309,7 @@
     .topo.sticky {
         display: block;
         position: absolute;
-        margin-top: 80vh;
+        margin-top: 320vh;
         margin-left: 92vw;
         transition: 0.5s;
     }
