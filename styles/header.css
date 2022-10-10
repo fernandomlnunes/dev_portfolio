@@ -104,7 +104,7 @@
 }
 
 .topo {
-    display: none;
+    display: block;
     position: absolute;
     margin-top: 98vh;
     margin-left: 92vw;
@@ -207,14 +207,33 @@
         position: absolute;
         margin-top: 98vh;
         margin-left: 92vw;
-        background-color: rgba(0, 0, 0, .9);
+        background-color: rgba(0, 0, 0, 0.9);
         border-radius: 5px;
     }
 
     .topo.sticky {
         display: block;
         position: absolute;
-        margin-top: 388vh;
+        margin-top: 224%;
+        margin-left: 92vw;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .topo {
+        display: none;
+        position: absolute;
+        margin-top: 98vh;
+        margin-left: 92vw;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 5px;
+    }
+
+    .topo.sticky {
+        display: block;
+        position: absolute;
+        margin-top: 198%;
         margin-left: 92vw;
         transition: 0.5s;
     }
@@ -238,6 +257,15 @@
 
     .container__texto {
         display: block;
+    }
+
+    .topo {
+        display: none;
+        position: absolute;
+        margin-top: 98vh;
+        margin-left: 92vw;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 5px;
     }
 
     .topo.sticky {

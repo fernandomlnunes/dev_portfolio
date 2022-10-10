@@ -41,3 +41,33 @@ function slidefun(n) {
   myslide[counter - 1].style.display = "block";
   dot[counter - 1].className += " active";
 }
+
+
+// top
+
+window.addEventListener('scroll', btn_topo)
+
+function btn_topo() {
+
+  var btn_home = document.querySelector('.topo');
+  if (btn_home.classList.toggle('sticky', window.scrollY > 130)) {
+  }
+}
+
+const linkInterno = document.querySelector('[data-scroll="suave"] a[href^="#"]')
+
+
+function scrollTop(event) {
+  event.preventDefault()
+
+  const href = event.currentTarget.getAttribute('href')
+
+  const topo = document.querySelector(href)
+
+  topo.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start',
+  })
+}
+
+linkInterno.addEventListener('click', scrollTop)
