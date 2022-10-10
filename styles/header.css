@@ -133,6 +133,44 @@
     transition: 0.5s;
 }
 
+@media screen and (max-width: 420px) {
+    .topo {
+        display: none;
+        position: absolute;
+        margin-top: 96vh;
+        margin-left: 92vw;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 5px;
+    }
+
+    .topo.sticky {
+        display: block;
+        position: absolute;
+        margin-top: 585%;
+        margin-left: 82vw;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .topo {
+        display: none;
+        position: absolute;
+        margin-top: 98vh;
+        margin-left: 92vw;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 5px;
+    }
+
+    .topo.sticky {
+        display: block;
+        position: absolute;
+        margin-top: 610%;
+        margin-left: 82vw;
+        transition: 0.5s;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .cabeçalho {
         padding: 0 2em;
