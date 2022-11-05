@@ -206,6 +206,7 @@
 
     .opções {
         display: flex;
+
     }
 
     .opções__item {
@@ -304,6 +305,7 @@
 
     .opções {
         margin-right: auto;
+        margin-left: 20vw;
     }
 
     .container__texto {
