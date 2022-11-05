@@ -18,25 +18,37 @@
 .cabeçalho {
     background: linear-gradient(67.54deg, #000000 25.49%, #00355a 165.37%);
     display: flex;
+    position: fixed;
+    height: 8vh;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    z-index: 10;
+    width: 100vw;
     padding: 0 2em;
+}
+
+.git_ico {
+    margin-left: -15vw;
+    width: 24px;
+    height: 24px;
+}
+
+.link_ico {
+    margin-left: -18vw;
+    width: 24px;
+    height: 24px;
 }
 
 .opções__item:hover,
 .opções__link:hover {
     background: var(--azul-degrade);
     color: var(--branco);
+    border-radius: 0.5em;
 }
 
 .container {
     display: flex;
     align-items: center;
-}
-
-.container__imagem {
-    padding: 0.2em;
 }
 
 .opções__rotulo {
@@ -87,6 +99,7 @@
 .opções {
     display: none;
     color: var(--branco);
+    margin-left: -15vw;
 }
 
 .container__texto {
