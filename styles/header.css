@@ -150,7 +150,7 @@
     .topo {
         display: none;
         position: absolute;
-        margin-top: 96vh;
+        margin-top: 98vh;
         margin-left: 92vw;
         background-color: rgba(0, 0, 0, 0.9);
         border-radius: 5px;
@@ -162,6 +162,18 @@
         margin-top: 585%;
         margin-left: 82vw;
         transition: 0.5s;
+    }
+
+    .git_ico {
+        margin-left: -15vw;
+        width: 24px;
+        height: 24px;
+    }
+
+    .link_ico {
+        margin-left: -18vw;
+        width: 24px;
+        height: 24px;
     }
 }
 
@@ -181,6 +193,18 @@
         margin-top: 610%;
         margin-left: 82vw;
         transition: 0.5s;
+    }
+
+    .git_ico {
+        margin-left: -15vw;
+        width: 24px;
+        height: 24px;
+    }
+
+    .link_ico {
+        margin-left: -18vw;
+        width: 24px;
+        height: 24px;
     }
 }
 
