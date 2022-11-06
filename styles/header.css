@@ -316,7 +316,7 @@
     .topo {
         display: none;
         position: absolute;
-        margin-top: 92vh;
+        margin-top: 90vh;
         margin-left: 92vw;
         background-color: rgba(0, 0, 0, 0.9);
         border-radius: 5px;
@@ -325,7 +325,7 @@
     .topo.sticky {
         display: block;
         position: absolute;
-        margin-top: 314vh;
+        margin-top: 312vh;
         margin-left: 92vw;
         transition: 0.5s;
     }
