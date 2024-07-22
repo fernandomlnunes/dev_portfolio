@@ -630,12 +630,13 @@ button:hover {
 /* header */
 
 .cabeçalho__menu-hamburguer {
-    width: 24px;
-    height: 24px;
+    width: 50px;
+    height: 50px;
     background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+    border-radius: 8px;
 }
 
 .container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {
@@ -660,14 +661,14 @@ button:hover {
 
 .git_ico {
     margin-left: -15vw;
-    width: 24px;
-    height: 24px;
+    width: 50px;
+    height: 50px;
 }
 
 .link_ico {
     margin-left: -22vw;
-    width: 24px;
-    height: 24px;
+    width: 50px;
+    height: 50px;
 }
 
 .opções__item:hover,
