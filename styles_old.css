@@ -1,10 +1,3 @@
-@import url("styles/header.css");
-@import url("styles/banner.css");
-@import url("styles/carrossel.css");
-@import url("styles/topicos.css");
-@import url("styles/portfolio.css");
-@import url("styles/contato.css");
-
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
@@ -332,28 +325,61 @@ button:hover {
 	color: var(--branco);
 }
 
-@media screen and (max-width:390px) {
+@media screen and (min-width: 320px) {
 	.bar_04 {
 		width: 98.8vw;
 		height: 2.6em;
 	}
 
 	.contato {
-		height: 600px;
+		height: 650px;
 	}
 
 	#form_0001 {
-		margin-top: 15vh;
-		margin-left: 52vw;
-		width: 300px;
-        background-color: red;
+		margin-top: 32vh;
+		margin-left: 7vw;
+		width: 200px;
 	}
 
 	#ctt_im_txt {
-		margin-top: 40vh;
-		margin-left: 10vw;
+		margin-top: 17vh;
+		margin-left: 3vw;
 		font-size: 2em;
-        background-color: #07c500;
+	}
+
+	#txt_nome,
+	#txt_msg,
+	#txt_cel,
+	#txt_email {
+		width: 200px;
+	}
+
+	.img_msg {
+		margin-top: 1.5vh;
+		margin-left: 40vw;
+	}
+}
+
+@media screen and (min-width: 420px) {
+	.bar_04 {
+		width: 98.8vw;
+		height: 2.6em;
+	}
+
+	.contato {
+		height: 650px;
+	}
+
+	#form_0001 {
+		margin-top: 22vh;
+		margin-left: 7vw;
+		width: 300px;
+	}
+
+	#ctt_im_txt {
+		margin-top: 14vh;
+		margin-left: 6vw;
+		font-size: 2em;
 	}
 
 	#txt_nome,
@@ -364,12 +390,12 @@ button:hover {
 	}
 
 	.img_msg {
-		margin-top: 16vh;
-		margin-left: 25vw;
+		margin-top: 1.5vh;
+		margin-left: 40vw;
 	}
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 620px) {
 	.bar_04 {
 		width: 98.8vw;
 		height: 2.6em;
@@ -404,7 +430,7 @@ button:hover {
 	}
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (min-width: 720px) {
 	.bar_04 {
 		width: 98.8vw;
 		height: 2.6em;
@@ -415,14 +441,14 @@ button:hover {
 	}
 
 	#form_0001 {
-		margin-top: 12vh;
+		margin-top: 30vh;
 		margin-left: 7vw;
-		width: 300px;
+		width: 200px;
 	}
 
 	#ctt_im_txt {
-		margin-top: 7vh;
-		margin-left: 6vw;
+		margin-top: 17vh;
+		margin-left: 3vw;
 		font-size: 2em;
 	}
 
@@ -430,42 +456,7 @@ button:hover {
 	#txt_msg,
 	#txt_cel,
 	#txt_email {
-		width: 290px;
-	}
-
-	.img_msg {
-		margin-top: 1.5vh;
-		margin-left: 40vw;
-	}
-}
-
-@media screen and (max-width: 720px) {
-	.bar_04 {
-		width: 98.8vw;
-		height: 2.6em;
-	}
-
-	.contato {
-		height: 650px;
-	}
-
-	#form_0001 {
-		margin-top: 12vh;
-		margin-left: 7vw;
-		width: 300px;
-	}
-
-	#ctt_im_txt {
-		margin-top: 7vh;
-		margin-left: 6vw;
-		font-size: 2em;
-	}
-
-	#txt_nome,
-	#txt_msg,
-	#txt_cel,
-	#txt_email {
-		width: 290px;
+		width: 200px;
 	}
 
 	.img_msg {
