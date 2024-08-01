@@ -573,6 +573,25 @@ button:hover {
 		margin-top: 10vh;
 		margin-left: 24vw;
 	}
+    .txt_sobre {
+        margin-top: 2em;
+        margin-left: 2em;
+        width: 40vw;
+        font-size: 16PX;
+    }
+    .h2_sobre{
+        margin-top: 2em;
+        margin-left: 2em;
+        width: 40vw;
+        font-size: 16PX;
+    }
+    .sobre_01 {
+        height: 35em;
+        margin-top: 1em;
+    }
+    .txt_h2_desc{
+        margin-top: 2%;
+    }
 }
 
 /* 1440px*/
@@ -600,6 +619,25 @@ button:hover {
 		margin-top: 12vh;
 		margin-left: 28vw;
 	}
+    .txt_sobre {
+        margin-top: 2em;
+        margin-left: 2em;
+        width: 40vw;
+        font-size: 20PX;
+    }
+    .h2_sobre{
+        margin-top: 2em;
+        margin-left: 2em;
+        width: 40vw;
+        font-size: 20PX;
+    }
+    .sobre_01 {
+        height: 35em;
+        margin-top: 1em;
+    }
+    .txt_h2_desc{
+        margin-top: 7%;
+    }
 }
 
 /*Dimenção em 1728px*/
@@ -643,6 +681,9 @@ button:hover {
     .sobre_01 {
         height: 35em;
         margin-top: 1em;
+    }
+    .txt_h2_desc{
+        margin-top: 7%;
     }
 }
 
